@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I ..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I ..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I ..\..\..\..\..\Libraries\CMSIS\Include -I ..\
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\INC\ARM
+-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER
+-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d "..\main.c"

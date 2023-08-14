@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: •ÏVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: teddy park wiznet Flex license: MDK Essential 5.31 (Flex): 1 user(s) (mdk_essential) Support: Sep 2020
+ 
+Tool Versions:
+Toolchain:       MDK Essential 5.31 (Flex): 1 user(s)  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.6.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+D:\wiznet\Workspace_Code\20_W7500\01_w7500_adc_test\W7500\W7500x_Library_Examples\Projects\Peripheral_Examples\ADC\Illumination_RGBLED\MDK\W7500x_ADC_Illumination_RGBLED.uvproj
+Project File Date:  04/13/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling system_W7500x.c...
+compiling W7500x_adc.c...
+compiling W7500x_it.c...
+assembling startup_W7500x.s...
+compiling retarget.c...
+compiling main.c...
+compiling W7500x_gpio.c...
+../../../../../Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c(591): warning: expression result unused [-Wunused-value]
+        *str++;
+        ^~~~~~
+../../../../../Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c(623): warning: expression result unused [-Wunused-value]
+        *str++;
+        ^~~~~~
+2 warnings generated.
+compiling W7500x_uart.c...
+linking...
+Program Size: Code=8880 RO-data=296 RW-data=16 ZI-data=2424  
+After Build - User command #1: C:\Keil_v5\\ARM\ARMCC\BIN\fromelf.exe D:\wiznet\Workspace_Code\20_W7500\01_w7500_adc_test\W7500\W7500x_Library_Examples\Projects\Peripheral_Examples\ADC\Illumination_RGBLED\MDK\Obj\W7500x_Illumination_RGBLED.axf --vhx --8x1 --output main.hex
+After Build - User command #2: fromelf --bin -o "D:\wiznet\Workspace_Code\20_W7500\01_w7500_adc_test\W7500\W7500x_Library_Examples\Projects\Peripheral_Examples\ADC\Illumination_RGBLED\MDK\Obj\W7500x_Illumination_RGBLED.bin" "D:\wiznet\Workspace_Code\20_W7500\01_w7500_adc_test\W7500\W7500x_Library_Examples\Projects\Peripheral_Examples\ADC\Illumination_RGBLED\MDK\Obj\W7500x_Illumination_RGBLED.axf"
+".\Obj\W7500x_Illumination_RGBLED.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

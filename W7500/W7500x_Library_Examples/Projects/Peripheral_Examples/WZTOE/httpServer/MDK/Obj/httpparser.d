@@ -1,0 +1,13 @@
+.\obj\httpparser.o: ..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.c
+.\obj\httpparser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\httpparser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\httpparser.o: ..\..\..\..\..\ioLibrary\Ethernet\socket.h
+.\obj\httpparser.o: ..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h
+.\obj\httpparser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\httpparser.o: ..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\httpparser.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h
+.\obj\httpparser.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\obj\httpparser.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\obj\httpparser.o: ..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h
+.\obj\httpparser.o: ..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\httpparser.o: ..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h

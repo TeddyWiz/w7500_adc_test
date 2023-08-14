@@ -1,0 +1,62 @@
+Dependencies for Project 'W7500x_ADC_Illumination_RGBLED', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM\startup_W7500x.s)(0x5F717ECF)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-mlittle-endian -gdwarf-3-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531"-o ./obj/startup_w7500x.o)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_uart.c)(0x5F717ECF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-mlittle-endian -gdwarf-3 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../../Libraries/CMSIS/Device/WIZnet/W7500/Include -I ../../../../../Libraries/W7500x_stdPeriph_Driver/inc -I ../../../../../Libraries/CMSIS/Include -I ../-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o ./obj/w7500x_uart.o -MD)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x5F717ECF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x5F717ECF)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_gpio.c)(0x5F717ECF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-mlittle-endian -gdwarf-3 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../../Libraries/CMSIS/Device/WIZnet/W7500/Include -I ../../../../../Libraries/W7500x_stdPeriph_Driver/inc -I ../../../../../Libraries/CMSIS/Include -I ../-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o ./obj/w7500x_gpio.o -MD)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x5F717ECF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x5F717ECF)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_adc.c)(0x640053B1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-mlittle-endian -gdwarf-3 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../../Libraries/CMSIS/Device/WIZnet/W7500/Include -I ../../../../../Libraries/W7500x_stdPeriph_Driver/inc -I ../../../../../Libraries/CMSIS/Include -I ../-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o ./obj/w7500x_adc.o -MD)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x5F717ECF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x5F717ECF)
+F (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\system_W7500x.c)(0x5F717ECF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-mlittle-endian -gdwarf-3 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../../Libraries/CMSIS/Device/WIZnet/W7500/Include -I ../../../../../Libraries/W7500x_stdPeriph_Driver/inc -I ../../../../../Libraries/CMSIS/Include -I ../-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o ./obj/system_w7500x.o -MD)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x5F717ECF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5F717ECF)
+F (..\main.c)(0x640064BF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-mlittle-endian -gdwarf-3 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../../Libraries/CMSIS/Device/WIZnet/W7500/Include -I ../../../../../Libraries/W7500x_stdPeriph_Driver/inc -I ../../../../../Libraries/CMSIS/Include -I ../-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o ./obj/main.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x5F717ECF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x5F717ECF)
+F (..\retarget.c)(0x64379D59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-mlittle-endian -gdwarf-3 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../../Libraries/CMSIS/Device/WIZnet/W7500/Include -I ../../../../../Libraries/W7500x_stdPeriph_Driver/inc -I ../../../../../Libraries/CMSIS/Include -I ../-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o ./obj/retarget.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x5F717ECF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x5F717ECF)
+F (..\W7500x_it.c)(0x5F717ECF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-mlittle-endian -gdwarf-3 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../../Libraries/CMSIS/Device/WIZnet/W7500/Include -I ../../../../../Libraries/W7500x_stdPeriph_Driver/inc -I ../../../../../Libraries/CMSIS/Include -I ../-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o ./obj/w7500x_it.o -MD)
+I (..\W7500x_it.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x5F717ECF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED5FDD4)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5F717ECF)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x5F717ECF)
